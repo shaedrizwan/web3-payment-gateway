@@ -1,0 +1,63 @@
+.home{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.image-container{
+    margin: 5rem;
+}
+
+.image-container > img{
+    max-width: 350px;
+}
+
+.pr-details{
+    padding: 2rem;
+    margin-top: 2rem;
+    max-width: 500px;
+}
+
+.pr-title{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.pr-price{
+    color: red;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1.5rem 0rem;
+}
+
+.pr-description{
+    color: rgb(56, 56, 56);
+    margin: 2rem 0rem;
+}
+
+.btn-buynow{
+    padding: 0.5rem 1.5rem;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-buynow:hover{
+    transform: scale(1.2);
+}
+
+@media(max-width:800px){
+    .home{
+        flex-direction: column;
+    }
+
+    .image-container{
+        margin: 2rem 1rem 0.5rem 1rem;
+    }
+
+    .image-container > img{
+        max-width: 80%;
+    }
+}
