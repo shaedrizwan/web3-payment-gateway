@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import PaymentGateway from './components/PaymentGateway/PaymentGateway';
+import {PaymentGateway} from "web3-demo-gateway";
 import MerchantLogo from "./assets/merchantLogo.png";
 import TshirtImage from "./assets/wagmi-tshirt.png";
 
